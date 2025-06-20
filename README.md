@@ -26,3 +26,26 @@ A simple PHP-based web tool to share sensitive or private text with others using
 
 ## 📁 Files Structure / ساختار فایل‌ها
 
+
+---
+
+## 🔐 Security Notes
+- Admin panel can be protected with basic authentication (username/password).
+- Do **not** expose `.txt` files directly — ideally, place them in a non-public directory or use `.htaccess` to prevent direct access.
+
+## ⚠️ نکات امنیتی
+- پنل مدیریت را با رمز عبور محافظت کنید (Basic Auth).
+- فایل‌های `.txt` را در دسترس مستقیم کاربران قرار ندهید.
+
+---
+
+## 🧪 How to Use
+1. Open `admin.php` in your browser.
+2. Paste the text you want to share.
+3. Get a unique link and share it with others.
+4. The link will expire in 10 minutes.
+
+---
+
+## 🚀 License
+This project is open-source and free to use under the MIT License.
