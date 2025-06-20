@@ -1,5 +1,8 @@
 # 🔐 Shadow Note
 
+📘 فارسی بخوانید: [README.fa.md](README.fa.md)
+
+
 **Shadow Note** is a lightweight PHP-based tool for securely sharing private or sensitive text messages via short access codes. Each message self-destructs after 10 minutes or upon expiration.
 
 ## 🚀 Features
@@ -21,3 +24,21 @@
 
 ## 📁 File Structure
 
+project/
+
+├── index.php # User interface for entering access code
+
+├── admin.php # Admin panel to create messages
+
+├── data/ # Stores temporary .txt files
+
+
+## 🔐 Security
+
+- Use HTTPS for secure transport
+- You can protect `admin.php` with basic auth or session login
+- Files are deleted after expiration automatically
+
+## 📄 License
+
+MIT — Use freely, credit appreciated!
