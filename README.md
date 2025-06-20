@@ -27,10 +27,10 @@ A simple PHP-based web tool to share sensitive or private text with others using
 ## 📁 Files Structure / ساختار فایل‌ها
 
 project/
-├── admin.php ← برای افزودن متن توسط مدیر
-├── text.php ← برای مشاهده متن با لینک
-├── .htaccess ← برای ریدایرکت آدرس‌ها به text.php
-├── abc123.txt ← فایل‌های متنی که به صورت موقت ذخیره می‌شن
+├── admin.php ← برای افزودن متن توسط مدیر -
+├── text.php ← برای مشاهده متن با لینک -
+├── .htaccess ← برای ریدایرکت آدرس‌ها به text.php -
+├── abc123.txt ← فایل‌های متنی که به صورت موقت ذخیره می‌شن -
 
 ---
 
